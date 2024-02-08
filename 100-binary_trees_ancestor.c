@@ -15,12 +15,12 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 	const binary_tree_t *temp2 = second;
 
 
-	while (temp1 != NULL)
+	while (!=temp1)
 {
 	temp1 = temp1->parent;
 	temp2 = second;
 
-	while (temp2 != NULL)
+	while (!=temp2)
 	{
 		if (temp1 == temp2)
 		{
